@@ -4,7 +4,7 @@
 #
 Name     : jdk-exec-maven-plugin
 Version  : 1.5.0
-Release  : 1
+Release  : 2
 URL      : http://repo1.maven.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.5.0/exec-maven-plugin-1.5.0-source-release.zip
 Source0  : http://repo1.maven.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.5.0/exec-maven-plugin-1.5.0-source-release.zip
 Summary  : No detailed summary available
@@ -16,6 +16,7 @@ BuildRequires : apache-maven2
 BuildRequires : javapackages-tools
 BuildRequires : jdk-aether
 BuildRequires : jdk-aopalliance
+BuildRequires : jdk-apache-parent
 BuildRequires : jdk-atinject
 BuildRequires : jdk-cdi-api
 BuildRequires : jdk-commons-beanutils
@@ -29,6 +30,7 @@ BuildRequires : jdk-commons-io
 BuildRequires : jdk-commons-lang
 BuildRequires : jdk-commons-lang3
 BuildRequires : jdk-commons-logging
+BuildRequires : jdk-commons-parent
 BuildRequires : jdk-commons-validator
 BuildRequires : jdk-doxia
 BuildRequires : jdk-doxia-sitetools
